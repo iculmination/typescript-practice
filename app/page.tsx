@@ -4,7 +4,9 @@ import Arrays from "@/components/arrays";
 import Classes from "@/components/classes";
 import Enum from "@/components/enum";
 import Functions from "@/components/functions";
+import Interfaces from "@/components/interfaces";
 import Objects from "@/components/objects";
+import UtilityTypes from "@/components/utility-types";
 
 export default function Home() {
   return (
@@ -63,6 +65,8 @@ export default function Home() {
       <Enum />
       <Objects />
       <Classes />
+      <Interfaces />
+      <UtilityTypes />
     </div>
   );
 }
